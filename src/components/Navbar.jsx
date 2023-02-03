@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="flex items-center justify-between py-7">
+    <nav className="flex items-center justify-between py-7 sm:mb-2">
       <img src={Logo} alt="Web 3 logo" />
       <div className="sm:hidden">
         <img
@@ -27,7 +27,7 @@ const Navbar = () => {
         />
       </div>
       <div className="hidden sm:inline">
-        <ul className="flex gap-4">
+        <ul className="flex gap-10">
           {navMenuLinks.map((links, index) => (
             <li key={index}>
               <a href="" className="text-dark-grayish-blue hover:text-soft-red">
