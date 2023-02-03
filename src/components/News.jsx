@@ -1,5 +1,5 @@
 import React from 'react';
-import { news } from '..';
+import { news } from '.';
 
 const News = () => {
   return (

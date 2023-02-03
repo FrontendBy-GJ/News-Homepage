@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Logo, MenuIcon } from '../assets';
 import Backdrop from './Backdrop';
 import Mobile_menu from './Mobile_menu';
-import { navMenuLinks } from '..';
+import { navMenuLinks } from '.';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

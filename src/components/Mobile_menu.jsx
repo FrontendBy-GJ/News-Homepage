@@ -1,5 +1,5 @@
 import React from 'react';
-import { navMenuLinks } from '..';
+import { navMenuLinks } from '.';
 import { MenuIconClose } from '../assets';
 
 const Mobile_menu = (props) => {

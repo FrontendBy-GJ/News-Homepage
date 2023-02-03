@@ -1,5 +1,5 @@
 import React from 'react';
-import { trending } from '..';
+import { trending } from '.';
 
 const Trending = () => {
   return (

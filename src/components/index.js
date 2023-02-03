@@ -1,4 +1,4 @@
-import { RetroPC, Laptop, GameController } from './assets';
+import { RetroPC, Laptop, GameController } from '../assets';
 
 export const navMenuLinks = [
   'Home',
